@@ -339,7 +339,7 @@ your `snap-content`s.
 ### SnapConstructor
 
 An injectable copy of `window.Snap`. This is also available as a provider if you
-want to provide you own Snap construtor, users pulling in Snap.js with a module
+want to provide your own Snap construtor, users pulling in Snap.js with a module
 loader might find this useful.
 
 ```
@@ -397,6 +397,7 @@ when using Snap.js without Angular Snap.
 
 ## Changelog
 
+- v1.8.0 2015-01-08 Add `enable` and `disable` methods to `snapRemote`
 - v1.7.0 2014-12-30 Add snap-opt-% attrs for more declarative syntax
 
 
